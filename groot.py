@@ -199,8 +199,7 @@ def main():
             if key_new in line:
                 newline = line.replace(key_new, names[key].rstrip() + ":", 1)
                 line = newline
-        fh1.write(line)  # This can be either line or new line because when it exits
-        # the for loop, line==newline
+        fh1.write(line)
     fh0.close()
     fh1.close()
     command = 'mv in_file {}.dist'.format(selection_dir)
