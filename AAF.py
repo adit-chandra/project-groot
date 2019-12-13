@@ -9,7 +9,7 @@ import numpy as np
 from utils import *
 
 
-def aaf_kmercount(data_dir, k, n, n_threads, mem_per_thread):
+def aaf_kmer_count(data_dir, k, n, n_threads, mem_per_thread):
     if k > 25:
         if os.system('which kmer_countx > /dev/null'):
             kmer_count = './kmer_countx'
