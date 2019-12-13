@@ -109,7 +109,7 @@ def main():
 
 
 
-    samples = AAF.aaf_kmer_count(data_dir, k_s, n, n_threads, mem_per_thread)
+    samples = AAF.aaf_kmercount(data_dir, k_s, n, n_threads, mem_per_thread)
 
     # build distance matrix
     sn = len(samples)
