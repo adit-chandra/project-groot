@@ -22,7 +22,7 @@ def main():
                       help="k-mer filtering threshold, default = 1")
     parser.add_option("-d", dest="data_dir", default='data',
                       help="directory containing the data, default = data/")
-    parser.add_option("-G", dest="mem_size", type=int, default=4,
+    parser.add_option("--mem", dest="mem_size", type=int, default=4,
                       help="total memory limit (in GB), default = 4")
     parser.add_option("-t", dest="n_threads", type=int, default=1,
                       help="number of threads to use, default = 1")
