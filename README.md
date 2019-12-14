@@ -1,7 +1,7 @@
 # Project Groot
  <img src="etc/groot.png" width="800">
 
-*An Algorithmic Approach to Phylogenic Inference on Genomic Data*
+*An Algorithmic Approach to Phylogenic Inference on Reduced Genomic Data*
 
 ### Dependecies
 ### Usage
