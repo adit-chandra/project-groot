@@ -4,7 +4,17 @@
 *An Algorithmic Approach to Phylogenic Inference on Reduced Genomic Data*
 
 ### Dependecies
+- `python 3.7`
+- binaries are compiled for `Ubuntu 16.04.6 LTS`
+
 ### Usage
+To run inference procedure, execute:
+
+`python3 groot.py -d <data_dir> -mem <mem_size> -t <n_threads> -k <klen> --ks <kslen> -n <filter> -l <long>`
+
+See `groot.py` for full option descriptions.
+NOTE: `data_dir` must contain sequences in [FASTA](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp) format.
+
 ### References
 - Baum, D. A., Smith, S. D. (2013). Tree Thinking: An Introduction to Phylogenetic Biology. Greenwood Village, CO: Roberts and Company.
 - Felsenstein J (2004). Inferring Phylogenies. Sunderland, Massachusetts: Sinauer Associates. ISBN 978-0-87893-177-4.
