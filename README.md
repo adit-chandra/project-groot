@@ -2,6 +2,9 @@
  <img src="etc/groot.png" width="800">
 
 *An Algorithmic Approach to Phylogenic Inference on Reduced Genomic Data*
+### Overview
+
+Historically, phylogenies have been recon- structed on the basis of high-level, observable traits using phenetic or clasdistic principles. With the advent of computational genomics and the accelerating accessibility of fully-sequenced genomes, an entire field has evolved to apply computation infer phylogenies from low-level genomic data. We ex- plore this domain as a focus of this project. While the availability of full genomes provides our com- putational methods with more data to make inferences, the added data presents further challenges in wrangling such large quantities of data and discerning useful targets. A large part of many genomes consist of self-propagating ’parasitic’ genetic elements that generally have no a apparent effect on organismal fitness. This, and our limited computing resources motivate us to experiment with inference techniques that construct inferences on reduced representations of raw nucleotide sequences. As the main exploration of this project, we experiment with applying efficient an assembly and alignment-free (AAF) algorithms to reduced genome montages to infer phylogenies. We validate our reasoning and implementa- tion on DNA montages derived from 10 primates.
 
 ### Dependecies
 - `python 3.7`
